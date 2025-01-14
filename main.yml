@@ -1,0 +1,9 @@
+---
+- name: Setup Attackbox
+  hosts: localhost
+  connection: local
+  become: true
+  tasks:
+    - name: 'Demo Debug'
+      debug: 
+        msg: 'This is working'
